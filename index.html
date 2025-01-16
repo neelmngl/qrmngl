@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting...</title>
+  <script>
+    // Detect device and redirect
+    if (/android/i.test(navigator.userAgent)) {
+      window.location.href = "https://play.google.com/store/apps/details?id=com.yourappname";
+    } else if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+      window.location.href = "https://apps.apple.com/app/id123456789";
+    } else {
+      window.location.href = "https://yourwebsite.com"; // Fallback for desktops
+    }
+  </script>
+</head>
+<body>
+  <p>Redirecting to your app store...</p>
+</body>
+</html>
