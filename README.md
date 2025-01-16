@@ -1,0 +1,2 @@
+# qrmngl
+MNGLQRRedirect
